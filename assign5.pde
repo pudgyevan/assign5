@@ -1,3 +1,16 @@
+PImage enemyImg, fighterImg, bg1Img, bg2Img, hpImg , treasureImg, start1Img , start2Img,
+       end1Img , end2Img ;
+
+final int GAME_START=0,GAME_RUN=1,GAME_WIN=2,GAME_OVER=3 ;
+int gameState ;
+
+int  treasureX , treasureY ,hpX ,counter;
+int a,b,c;
+
+float x , y ,fighterSpeed =5;
+
+boolean upPressed = false ;
+boolean downPressed = false ;
 boolean leftPressed = false ;
 boolean rightPressed = false ;
 boolean aMode=true,bMode=false,cMode=false;
